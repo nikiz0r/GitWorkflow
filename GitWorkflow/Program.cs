@@ -6,7 +6,12 @@ namespace GitWorkflow
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Please, type your name: ");
+            var name = Console.ReadLine();
+
+            Console.WriteLine($"Hello {name}!");
+
+            Console.ReadKey();
         }
     }
 }
